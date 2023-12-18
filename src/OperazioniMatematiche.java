@@ -13,6 +13,7 @@ public class OperazioniMatematiche {
         System.out.println("la somma è uguale a: "+ somma(numeroN, numeroN2));
         System.out.println("la sottrazione è uguale a: "+ sottrazioni(numeroN, numeroN2));
         System.out.println("la moltiplicazione è uguale a: "+ moltiplicazione(numeroN, numeroN2));
+        System.out.println("la divisione è uguale a: "+ divisione(numeroN, numeroN2));
 
         scanner.close();
     }
@@ -27,6 +28,10 @@ public class OperazioniMatematiche {
 
     public static int moltiplicazione(int parametro1, int parametro2) {
         return parametro1 * parametro2;
+    }
+
+    public static int divisione(int parametro1, int parametro2) {
+        return parametro1 / parametro2;
     }
 
 }
