@@ -11,6 +11,7 @@ public class OperazioniMatematiche {
         int numeroN2 = scanner.nextInt();
 
         System.out.println("la somma è uguale a: "+ somma(numeroN, numeroN2));
+        System.out.println("la sottrazione è uguale a: "+ sottrazioni(numeroN, numeroN2));
 
         scanner.close();
     }
@@ -18,4 +19,9 @@ public class OperazioniMatematiche {
     public static int somma(int parametro1, int parametro2) {
         return parametro1 + parametro2;
     }
+
+    public static int sottrazioni(int parametro1, int parametro2) {
+        return parametro1 + parametro2;
+    }
+
 }
